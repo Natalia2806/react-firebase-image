@@ -1,0 +1,3 @@
+NETLIFY: https://62646d14343e8b000807218f--myformulario.netlify.app/
+
+AWS Amplify: https://main.d2xp45289bincw.amplifyapp.com 
