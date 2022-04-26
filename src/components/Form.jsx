@@ -101,7 +101,7 @@ const Form = () => {
         }
 
         try {
-            // obtenerImagen();
+            obtenerImagen();
             const db = firebase.firestore()
             const newUser = {
                 nombre: name,
