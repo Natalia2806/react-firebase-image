@@ -237,7 +237,7 @@ const Form = () => {
                             <td>{elemento.tel}</td>
                             <td>{elemento.correo}</td>
                             <td>{elemento.ciudad}</td>
-                            <td><img src={elemento.imagen} alt="imagen aleatoria" /></td>
+                            <td><img width="100px" src={elemento.imagen} alt="imagen aleatoria" /></td>
                             <td><button className="btn btn-warning" onClick={() => auxEditar(elemento)}>Editar</button></td>
                             <td><button className="btn btn-danger" onClick={() => eliminar(elemento.id)}>Eliminar</button></td>
                         </tr>
