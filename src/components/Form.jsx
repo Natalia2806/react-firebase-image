@@ -32,15 +32,15 @@ const Form = () => {
         return regex.test(email) ? true : false;
     }
 
-    // const obtenerImagen = async () => {
-    //     try {
-    //         const res = await fetch("https://picsum.photos/200");
-    //         const data = await res;
-    //         setImagen(data.url)
-    //     } catch (error) {
-    //         console.log(error);
-    //     }
-    // };
+    const obtenerImagen = async () => {
+        try {
+            const res = await fetch("https://picsum.photos/200");
+            const data = await res;
+            setImagen(data.url)
+        } catch (error) {
+            console.log(error);
+        }
+    };
 
     useEffect(() => {
         const obtenerDatos = async () => {
